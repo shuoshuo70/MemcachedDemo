@@ -16,6 +16,7 @@ public class MemcachedUtil {
      * 初始化连接池
      */
 
+
     static {
         //获取连接池的实例
         SockIOPool pool = SockIOPool.getInstance();
